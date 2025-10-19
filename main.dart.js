@@ -26931,15 +26931,15 @@ this.b=b},
 aiy:function aiy(){},
 aiz:function aiz(a){this.a=a},
 Wg:function Wg(){},
-KQ(a,b){var s=0,r=A.J(t.y),q,p,o
-var $async$KQ=A.E(function(c,d){if(c===1)return A.G(d,r)
+KQ(a,b,c){var s=0,r=A.J(t.y),q,p,o
+var $async$KQ=A.E(function(d,e){if(d===1)return A.G(e,r)
 while(true)switch(s){case 0:o=A
 s=3
-return A.D(a.C7(b,null,null,null),$async$KQ)
-case 3:p=o.cj(d.b,0,null)
+return A.D(a.C7(b,null,c,null),$async$KQ)
+case 3:p=o.cj(e.b,0,null)
 s=4
 return A.D(A.azo(p,B.GW,"_self"),$async$KQ)
-case 4:q=d
+case 4:q=e
 s=1
 break
 case 1:return A.H(q,r)}})
@@ -41991,17 +41991,18 @@ r[6]=f+r[6]>>>0
 r[7]=e+r[7]>>>0}}
 A.VS.prototype={}
 A.Iv.prototype={
-wv(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m
+wv(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m,l
 var $async$wv=A.E(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:q=3
+s=q}while(true)switch(s){case 0:m="https://omkarsutar.github.io/PWADemo1SupabaseFlutter/"
+q=3
 s=6
-return A.D(A.KQ(o.a.gh0(),B.Lg),$async$wv)
+return A.D(A.KQ(o.a.gh0(),B.Lg,m),$async$wv)
 case 6:q=1
 s=5
 break
 case 3:q=2
-m=p.pop()
-throw m
+l=p.pop()
+throw l
 s=5
 break
 case 2:s=1
@@ -84605,19 +84606,20 @@ return A.I($async$y4,r)},
 xo(a,b,c,d,e){return this.a8V(a,b,c,d,e)},
 a8V(a,b,c,d,e){var s=0,r=A.J(t.PN),q,p=this,o,n,m,l,k
 var $async$xo=A.E(function(f,g){if(f===1)return A.G(g,r)
-while(true)switch(s){case 0:m=t.N
-l=A.a1(["provider",A.aR6(a)],m,m)
-k=p.at
-s=k===B.fj?3:4
+while(true)switch(s){case 0:l=t.N
+k=A.a1(["provider",A.aR6(a)],l,l)
+k.m(0,"redirect_to",c)
+o=p.at
+s=o===B.fj?3:4
 break
-case 3:o=A.aWa()
+case 3:n=A.aWa()
 s=5
-return A.D(p.as.rD("supabase.auth.token-code-verifier",o),$async$xo)
-case 5:n=B.CJ.cA(B.m3.cA(o))
-l.N(0,A.a1(["flow_type",k.b,"code_challenge",B.mc.gqA().cA(n.a).split("=")[0],"code_challenge_method","s256"],m,m))
-case 4:m=A.r3(null,null,l).f
-if(m==null)m=""
-q=new A.Mh(e+"?"+m)
+return A.D(p.as.rD("supabase.auth.token-code-verifier",n),$async$xo)
+case 5:m=B.CJ.cA(B.m3.cA(n))
+k.N(0,A.a1(["flow_type",o.b,"code_challenge",B.mc.gqA().cA(m.a).split("=")[0],"code_challenge_method","s256"],l,l))
+case 4:l=A.r3(null,null,k).f
+if(l==null)l=""
+q=new A.Mh(e+"?"+l)
 s=1
 break
 case 1:return A.H(q,r)}})
